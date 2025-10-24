@@ -239,6 +239,7 @@ nav ul li a {
   transition: color 0.3s;
   text-align: center;
   margin-right: 10px;
+  font-size: 1.1rem;
   
 }
 
@@ -269,7 +270,7 @@ button.apply:hover {
   background-color: rgba(207, 238, 207, 0.356);
 }
 nav ul li a:hover {
-  color: darkgreen;
+  color: rgb(6, 184, 6);
 }
 .hd {
   font-size: 1.9rem;
@@ -283,4 +284,60 @@ nav ul li a:hover {
   margin: 0;
   padding: 0 20px;
   text-align: left;
+}
+.lines-features {
+  font-size: 1.2rem;
+  margin: 20px 0 10px;
+  text-align: left;
+  padding: 0 20px;
+}
+.check1{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin: 5px;
+}
+.check2{
+    color: rgb(56, 54, 163);
+    border: 1px solid rgb(56, 54, 163);
+    border-radius: 50%;
+    margin: 5px;
+}
+.check3{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    margin: 5px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    padding: 0 20px;
+    width: 300px;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: white;
+    color: green;
+    border: green 1px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.arrow{
+   margin-left: 10px;
+    color: rgb(218, 16, 16);
+    position: absolute;
+    
+    top: 50%;
+   
 }
