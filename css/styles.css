@@ -184,11 +184,16 @@ button {
 .lines{
     color: rgb(71, 78, 69);
 }
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: none;
+}
 
 
 
 
-/* mobile 
+/* mobile for cards */
 @media (max-width: 412px) {
     .main{
         flex-direction: column;
@@ -197,7 +202,7 @@ button {
     .card{
         margin: 20px 0;
     }
-}*/
+}
 header {
   display: flex;
   justify-content: space-evenly;
@@ -206,7 +211,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 1;
   width: 100%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   padding: 0 20px;
