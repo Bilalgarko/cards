@@ -127,6 +127,9 @@ button {
     height: 100vh;
     
 }
+.cards-section{
+    margin-top: -450px;
+}
 .box {
   width: 50%;
   max-width: 250px;
@@ -170,9 +173,15 @@ button {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.path{
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+}
 .p{
-    font-size: 1.5rem;
-    margin:;
+    font-size: 1.8rem;
+    margin: 0;
     padding: 0 20px;
     text-align: center;
 }
@@ -217,7 +226,11 @@ header {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   padding: 0 20px;
 }
-
+img{
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -425,6 +438,29 @@ footer {
     padding: 0 20px;
     width: 300px;
 }
+.stats {
+  display: flex;
+  gap: 40px;
+  border-top: 1px solid lightgray;
+  width: 50%;
+  font-size: 15px;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.green {
+  color: rgb(52, 145, 52);
+}
+
+.blue {
+  color: rgb(0, 123, 255);
+}
+
+.purple {
+  color: rgb(159, 44, 226);
+}
 .btn1{
     background-color: green;
     color: white;
@@ -436,21 +472,16 @@ footer {
 .btn2{
     background-color: white;
     color: green;
-    border: green 1px solid;
+    border: green 2px solid;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
-.arrow{
-   margin-left: 10px;
-    color: rgb(218, 16, 16);
-    position: absolute;
+.img-geekinkers{
+    width: 550px;
+    height: 500px;
+    border-radius: 3%;
+    margin-left: 730px;
+    margin-top: -500px;
     
-    top: 50%;
-   
-}
-img{
-    width: 30px;
-    height: 30px;
-    margin-right: 3px;
 }
